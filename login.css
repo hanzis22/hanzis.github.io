@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f8fd;
+    /* background-image: url(https://i.pinimg.com/564x/d7/3f/02/d73f0230122dd1f43c5704bec40081b2.jpg); */
+    background-size: cover;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    /* box-shadow: 5px 5px 10px wheat;
+    padding: auto; */
+    /* width: 400px;
+    height: 300px; */
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+/* .login
+    text-align: left;
+} */
+
+body .login-container .tombol button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #2447f9;
+    color: #ffffff;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+body .login-container .login input {
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #e5e9f2;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+body .login-container p {
+    text-align: right;
+    margin-top: -8px;
+    margin-bottom: 35px;
+}
+
+body .login-container .btn-lupa-password {
+    text-decoration: none;
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .login-container .btn-lupa-password:hover {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .login-container h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body .login-container .btn-regis button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #e5e9f2;
+    color: #000;
+    font-weight: 800px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.garis {
+    border: 1px solid #e5e9f2;
+    margin-top: 25px;
+}
+
+body .login-container .btn-masuk button {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #34364a;
+    color: #ffff;
+    font-weight: 800px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .login-container .btn-masuk img {
+    width: 20px;
+    vertical-align: center;
+    padding-right: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+body .login-container .login label {
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: left;
+}
